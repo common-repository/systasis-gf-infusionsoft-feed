@@ -1,0 +1,86 @@
+== Changelog ==
+
+= 2.5.0 =
+Implement feed export / import
+Undo 2.4.4; which was caused by pilot error
+
+= 2.4.4 =
+Revert 2.4.3 Contact creation was limited to Standard fields.
+
+= 2.4.3 =
+Hotfix for overloaded xmlrpc_client class
+
+= 2.4.2 =
+Fix runtime error on Affiliate Code not found
+Fix runtime error on no file upload check
+Implement Keap Referral Partner links for the Affiliate field type. Such links supply an Affiliate ID in place of an Affiliate Code. Accept any such value when processing a form submission
+
+= 2.4.1 =
+Remove extraneous trailing comma when constructing feed add-on long description
+
+= 2.4 =
+Implement Composer
+Implement Gravity Forms v2.5 integration
+Implement feed add-on settings UI
+Improve feed settings UI
+Incorporate Novak Infusionsoft SDK at commit 1e3e7a8
+Display "deactivate infusionsoft-sdk plugin" admin message when infusionsoft-sdk plugin is active
+Documentation update to capture Keap rename
+Cache lead sources
+Memorialize contact API goals achieved, files uploaded in Entry notes
+
+= 2.3.5 =
+Proper test for presence of affiliate id
+Test for WordPress release 5.5
+
+= 2.3.4 =
+Track WordPress releases
+
+= 2.3.3 =
+Revert implement filter to remove erroneous checkbox choices;
+
+= 2.3.2 =
+README changes:
+
+- Reformat field mapping table; 
+- Add comment about duplicate field names; 
+- Add donation link; 
+- Move Configuration section to own file; 
+- Use correct Infusionsoft data type names; 
+- Improve product description; 
+- Describe support services;
+
+Issues resolved:
+
+- Uninstall plugin after GF uninstall;
+- Fields are duplicated; 
+- Initialize fieldMap to space when creating a new feed;
+- Improve Infusionsoft "Yes/No" data type handling;
+- Implement filter to remove erroneous checkbox choices;
+
+= 2.3.1 =
+Ensure duplicate fields are not present in field list;
+Ensure destination Infusionsoft custom field is empty when no input fields are selected;
+Ensure all fields are listed in field list;
+Ensure plugin uninstall removes feed and transient values;
+Forbid empty combine fields CSS when enabled, Add error message and hint icon;
+Improve error logging;
+
+= 2.3.0 =
+Implement field combination
+
+= 2.2.3 =
+Implement Infusionsoft connection failure reporting
+
+= 2.2.2 =
+Test for empty email before optin;
+Update documentation to describe GF Checkbox mapping;
+
+= 2.2.1 =
+Restore broken conditional goal update. Thanks to T. Nolbarczek
+
+= 2.0 =
+Conditional API goal
+
+= 1.0 =
+Initial Version

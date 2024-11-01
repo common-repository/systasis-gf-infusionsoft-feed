@@ -1,0 +1,38 @@
+/**
+ * Systasis Gravity Forms Infusionsoft Feed Add-On
+ *
+ * @since     1.0
+ * @package   GravityForms
+ * @author    Systasis Computer Systems, Inc.
+ * @version   1.0
+ * @copyright Copyright (c) 2017, Systasis Computer Systems
+ */
+#gaddon-setting-row-contactStandardFields>td,
+#gaddon-setting-row-leadStandardFields>td {
+	padding-bottom: 0;
+}
+
+#gaddon-setting-row-contactCustomFields>td,
+#gaddon-setting-row-leadCustomFields>td {
+	padding-top: 0;
+}
+
+#gaddon-setting-row-contactStandardFields td:first-child,
+#gaddon-setting-row-leadStandardFields td:first-child {
+	width: 220px;
+}
+
+#conditional_api_goal_logic_type {
+	margin-left: 0.5rem;
+	max-width: 460px;
+	width: auto;
+}
+
+.gform-settings-field__conditional_api_goal .gf_conditional_logic_rules_container select:first-child {
+	margin-left: 0;
+}
+
+.gform-settings-field__conditional_api_goal .gfield_rule_input {
+	height: inherit !important;
+	width: auto !important;
+}

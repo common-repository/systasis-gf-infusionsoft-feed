@@ -1,0 +1,32 @@
+#gaddon-setting-row-contactStandardFields>td, #gaddon-setting-row-leadStandardFields>td {
+    padding-bottom: 0
+}
+
+#gaddon-setting-row-contactCustomFields>td, #gaddon-setting-row-leadCustomFields>td {
+    padding-top: 0
+}
+
+#gaddon-setting-row-contactStandardFields td:first-child, #gaddon-setting-row-leadStandardFields td:first-child {
+    width: 220px
+}
+
+#conditional_api_goal_logic_type {
+    margin-left: 0.5rem;
+    max-width: 460px;
+    width: auto;
+}
+
+.gform-settings-field__conditional_api_goal .gf_conditional_logic_rules_container select:first-child {
+    margin-left: 0;
+}
+
+.gform-settings-field__conditional_api_goal .select2-container .select2-selection__rendered,
+.gform-settings-field__conditional_api_goal select:not([multiple]) {
+    max-width: 200px;
+    width: auto;
+}
+
+.gform-settings-field__conditional_api_goal .gfield_rule_input {
+    height: inherit !important;
+    width: auto !important;
+}
